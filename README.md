@@ -8,8 +8,10 @@ A Python-based password strength checker with a simple GUI built using `ttkboots
 - Modern UI: The app uses the `ttkbootstrap` library to create a clean, modern interface.
 
 ## Installation
-1. Clone the repository: git clone https://github.com/yourusername/password-strength-checker.git
-2. Install the required dependencies: pip install ttkbootstrap requests
+1. Clone the repository:
+   git clone https://github.com/yourusername/password-strength-checker.git
+2. Install the required dependencies: 
+   pip install ttkbootstrap requests
 
 
 ## Usage

@@ -23,16 +23,16 @@ def generate_password_ui():
 
 def toggle_password_visibility():
     if show_password_var.get():
-        entry.config(show="")  # Show the actual password
+        entry.config(show="")
     else:
-        entry.config(show="*")  # Hide the password
+        entry.config(show="*")
 
 def clear_fields():
     entry.delete(0, ttk.END)
     result_label.config(text="")
     feedback_label.config(text="")
-    show_password_var.set(0)  # Reset the "Show Password" checkbox
-    entry.config(show="*")    # Reapply masking
+    show_password_var.set(0)
+    entry.config(show="*")
 
 app=ttk.Window(themename="superhero")
 app.title("Password Strength Checker")
@@ -44,7 +44,6 @@ title_label.pack(pady=10)
 entry=ttk.Entry(app, width=30, show="*", font=("Arial", 12))
 entry.pack(pady=10)
 
-# Show Password Checkbox
 show_password_var=ttk.IntVar()
 show_password_check=ttk.Checkbutton(app, text="Show Password", variable=show_password_var, command=toggle_password_visibility)
 show_password_check.pack(pady=5)
