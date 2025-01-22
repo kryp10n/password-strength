@@ -16,7 +16,7 @@ def check_password_strength(password):
         "Missing a digit": digit_error,
         "Missing an uppercase letter": uppercase_error,
         "Missing a lowercase letter": lowercase_error,
-        "Missing the '@' symbol": special_char_error,
+        "Missing the @ symbol": special_char_error,
     }
 
     feedback=[key for key, value in errors.items() if value]

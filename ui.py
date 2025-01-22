@@ -8,7 +8,7 @@ def check_password():
 
     try:
         if check_pwned_password(password):
-            feedback.append("This password has been compromised. Avoid using it!")
+            feedback.append("This password is compromised. Avoid using it!")
     except Exception as e:
         feedback.append("Error checking against Have I Been Pwned API.")
 
