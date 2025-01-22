@@ -13,9 +13,9 @@ A Python-based password strength checker with a simple GUI built using `ttkboots
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/kryp10n/password-strength-checker.git
+   `git clone https://github.com/kryp10n/password-strength-checker.git`
 2. Install the required dependencies: 
-   pip install ttkbootstrap requests
+   `pip install ttkbootstrap requests`
 
 
 ## Usage
