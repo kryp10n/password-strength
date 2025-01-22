@@ -1,6 +1,10 @@
 # Password Strength Checker
 A Python-based password strength checker with a simple GUI built using `ttkbootstrap`. The tool checks the strength of passwords, generates secure passwords, and checks if they have been compromised using the Have I Been Pwned API.
 
+## Screenshot
+
+![App Screenshot](screenshot.png)
+
 ## Features
 - Password Strength Checker: Checks if a password meets the necessary strength requirements (minimum length, contains digits, uppercase, lowercase, and the '@' symbol).
 - Password Generator: Generates a secure password that includes at least one lowercase letter, one uppercase letter, one digit, and the '@' symbol.
