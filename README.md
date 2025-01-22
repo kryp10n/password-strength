@@ -19,7 +19,8 @@ A Python-based password strength checker with a simple GUI built using `ttkboots
 
 
 ## Usage
-1. Run the `ui.py` script: python ui.py
+1. Run the ui.py script:
+   `python ui.py`
 2. The application will open a window where you can:
    - Enter a password to check its strength.
    - Generate a new secure password.
